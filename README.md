@@ -4,20 +4,23 @@ Una compañía utiliza una API para recolectar la información de perfil de usua
 
 
 Crea un script de Unit Testing que verifique lo siguiente:
-Que _typename = User
-Que id tenga una longitud de 32 caracteres
-Que rest_id únicamente este conformado por números
-Que name no sea un dato vacío
-Que screen_name no sea un dato vacío
-Que las siguientes columnas sean de tipo entero:
-fast_followers_count
-favourites_count
-followers_count
-friends_count
-listed_count
-media_count
-normal_followers_count
-Statuses_count
+1. Que _typename = User
 
+2. Que id tenga una longitud de 32 caracteres
+
+3. Que rest_id únicamente este conformado por números
+
+4. Que name no sea un dato vacío
+
+5. Que screen_name no sea un dato vacío
+6. Que las siguientes columnas sean de tipo entero:
+   - fast_followers_count
+   - favourites_count
+   - followers_count
+   - friends_count
+   - listed_count
+   - media_count
+   - normal_followers_count
+   - Statuses_count
 
 El archivo adjunto user_info.json es un ejemplo de los JSON que debes validar con tu Unit Testing.
