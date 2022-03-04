@@ -1,4 +1,4 @@
-# Unit-Testing-Zophia-BootCamp-2022
+# Unit Testing con Python
 
 Una compañía utiliza una API para recolectar la información de perfil de usuarios en Twitter. Las respuestas que reciben de la API llegan en formato JSON, estas respuestas se almacenan en una capa cruda dentro de un Data Lake y de ahí son sometidas a un proceso de ETL para extraer la información de valor y almacenarla en una base de datos relacional sin embargo, hace falta una etapa de validación previa para saber si los JSON que serán el input de este proceso ETL no generarán problemas.
 
